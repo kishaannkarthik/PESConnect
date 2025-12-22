@@ -564,9 +564,3 @@ class app:
         # Close button
         close_button = ctk.CTkButton(show_window, text="Close", command=show_window.destroy, width=200)
         close_button.pack(pady=20)
-        
- 
-
-
-if __name__ == "__main__":
-    app.login_gui()
